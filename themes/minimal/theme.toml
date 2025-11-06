@@ -1,0 +1,4 @@
+name = "Minimal"
+license = "MIT"
+description = "A minimal theme for 200word.org blog"
+min_version = "0.119.0"
