@@ -41,8 +41,6 @@ body {
 /* Header */
 header {
     border-bottom: 1px solid var(--border-color);
-    margin-bottom: 60px;
-    padding-bottom: 30px;
     background-color: var(--bg-secondary);
     padding: 30px 20px;
     margin: -20px -20px 60px -20px;
@@ -235,7 +233,6 @@ main {
 
 .post .content blockquote {
     border-left: 4px solid var(--primary-color);
-    padding-left: 24px;
     margin-left: 0;
     margin-bottom: 20px;
     color: var(--text-light);
