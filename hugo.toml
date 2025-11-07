@@ -1,0 +1,12 @@
+baseURL = 'https://nthapa13.github.io/200word.org/'
+languageCode = 'en-us'
+title = '200word.org'
+theme = 'minimal'
+
+[params]
+  description = "200 Lousy words"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
