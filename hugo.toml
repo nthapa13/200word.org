@@ -1,4 +1,4 @@
-baseURL = 'https://nthapa13.github.io/200word.org/'
+baseURL = 'https://200word.org/'
 languageCode = 'en-us'
 title = '200word.org'
 theme = 'minimal'
