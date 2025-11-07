@@ -5,16 +5,26 @@
 ## About
 
 This is a simple, markdown-based blog built with Hugo. It features:
-- Clean, minimal design
+- Modern, clean design with dark mode support
 - Markdown-based content
 - No comments or interactions
 - Automatic deployment to GitHub Pages
+
+## Theme
+
+The site uses a custom modernized minimal theme with:
+- **CSS Variables** for easy theming
+- **Dark Mode Support** that automatically adapts to system preferences
+- **Modern Typography** with improved readability
+- **Subtle Animations** for better user experience
+- **Responsive Design** that works on all devices
+- **Enhanced Code Blocks** with proper syntax highlighting support
 
 ## Setup
 
 This repository is already configured with:
 - Hugo static site generator (v0.119.0)
-- Custom minimal theme
+- Custom modernized minimal theme
 - GitHub Actions workflow for automatic deployment
 
 ## Creating New Posts
