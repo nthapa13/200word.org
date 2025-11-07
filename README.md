@@ -35,7 +35,7 @@ To run the site locally:
 hugo server -D
 ```
 
-Visit `http://localhost:1313/200word.org/` in your browser.
+Visit `http://localhost:1313/` in your browser.
 
 ## Deployment
 
@@ -45,6 +45,26 @@ To enable GitHub Pages:
 1. Go to repository Settings → Pages
 2. Set Source to "GitHub Actions"
 3. The workflow will automatically deploy on the next push to main
+
+### Custom Domain Setup
+
+This repository is configured to use the custom domain `200word.org`. To complete the setup:
+
+1. Configure DNS settings for your domain:
+   - **Option A (Recommended)**: Add A records pointing to GitHub Pages IPs:
+     - 185.199.108.153
+     - 185.199.109.153
+     - 185.199.110.153
+     - 185.199.111.153
+   - **Option B**: Add a CNAME record pointing to `nthapa13.github.io`
+
+2. In repository Settings → Pages:
+   - The custom domain should automatically be detected from the CNAME file
+   - Enable "Enforce HTTPS" (recommended, may take time to provision certificate)
+
+3. Wait for DNS propagation (can take up to 24-48 hours)
+
+The CNAME file in the `static/` directory tells GitHub Pages to use the custom domain.
 
 ## Building
 
