@@ -6,7 +6,9 @@ draft = false
 
 Hello world
 
-## WHY??
+
+## Why??
+
 
 Mark Manson mentions in his book, the subtle art of not giving a fuck, that he asked an unnamed author on secrets to writing tons of books. The prolific unnamed author replied "200 crappy words a day, that's it".
 
