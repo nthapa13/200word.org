@@ -4,7 +4,7 @@ title = '200word.org'
 theme = 'minimal'
 
 [params]
-  description = "200 Lousy words"
+  description = "200 words"
 
 [markup]
   [markup.goldmark]
