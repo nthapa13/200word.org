@@ -1,10 +1,10 @@
 baseURL = 'https://200word.org/'
 languageCode = 'en-us'
-title = '200word.org'
+title = '200 words'
 theme = 'minimal'
 
 [params]
-  description = "200 words"
+  description = "200 words a day"
 
 [markup]
   [markup.goldmark]
