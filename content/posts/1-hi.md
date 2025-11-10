@@ -1,6 +1,6 @@
 +++
 title = 'Hi from 200 words'
-date = {{ .Date }}
+date = 2025-11-10
 draft = false
 +++
 
