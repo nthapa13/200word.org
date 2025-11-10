@@ -4,6 +4,8 @@
 /assets/jsconfig.json
 hugo_stats.json
 .hugo_build.lock
+hugo
+hugo.tar.gz
 
 # OS
 .DS_Store
